@@ -1,0 +1,43 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hi1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.hi2 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 23px;
+}
+
+.hi3 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}

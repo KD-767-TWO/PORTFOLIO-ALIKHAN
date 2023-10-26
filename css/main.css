@@ -1,0 +1,305 @@
+.main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+.main-info .m-i-i {
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main-info:hover .m-i-1 {
+  opacity: 1;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.main-info:hover .m-i-2 {
+  opacity: 1;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.main-info:hover .m-i-i {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.m-i-1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.m-i-2 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main-info-2-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-info-2-glav:hover .mi-i {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.main-info-2-glav:hover .mi-block-1-1 {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.main-info-2-glav:hover .mi-block-2-1 {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.main-info-2-glav:hover .mi-block-2-2 {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.mi-i {
+  -webkit-filter: brightness(10%);
+          filter: brightness(10%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main-info-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.m-i2-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.main-info-block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.mi-block-1-1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.mi-block-1-1 .it-park {
+  color: greenyellow;
+}
+.mi-block-1-1 .it-park:hover {
+  color: green;
+}
+.mi-block-1-1 a {
+  color: rgb(152, 31, 31);
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mi-block-1-1 a:hover {
+  color: rgb(184, 7, 7);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-info-block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 65px;
+}
+
+.mi-block-2-1 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.mi-block-2-1 a {
+  color: cornflowerblue;
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mi-block-2-1 a:hover {
+  color: rgb(15, 89, 226);
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mi-block-2-2 {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.mi-block-2-2 a {
+  text-decoration: underline;
+}
+
+.main-info-3-glav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-info-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+}
+
+.m-i3-1 {
+  text-align: center;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.motivation {
+  width: 900px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.motivation-text-1 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 100px;
+}
+
+.motivation-text-2 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 60px;
+}
+
+.motivation-text-3 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 60px;
+}
+
+.motivation-text-4 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 60px;
+}
+
+.motvation-text-final {
+  text-align: start;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 100px;
+  margin-left: 45px;
+}

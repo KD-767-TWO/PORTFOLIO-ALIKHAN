@@ -1,0 +1,65 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer:hover .final-ps {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #7953cd), color-stop(30%, #250050), color-stop(70%, #690199), color-stop(80%, #764ada));
+  background: linear-gradient(to right, #7953cd 20%, #250050 30%, #690199 70%, #764ada 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  -webkit-animation: textShine 5s ease-in-out infinite alternate;
+          animation: textShine 5s ease-in-out infinite alternate;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@-webkit-keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 90% 75%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 90% 75%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.final {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 50px;
+}
+
+.final-ps {
+  color: gray;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
